@@ -127,7 +127,6 @@ def parse_price_volume(name,day,word):
 	#otc_list=open('otc.txt').read().split(',')
 	#tse_list=open('tse.txt').read().split(',')
 	first_day=datetime(int(day[0:4]),int(day[4:6]),int(day[6:8]))
-
 	max_day=15
 	while(max_day):
 		date_t=(first_day.year, first_day.month, first_day.day)
